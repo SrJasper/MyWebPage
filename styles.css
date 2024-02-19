@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: 2vw "helvetica";
+}
+
+.menu{
+
+    display: grid;
+    background-color: rgb(72, 79, 119);
+    grid-template-columns: 20% 80%; /* Define a largura das colunas */
+    position: relative;
+    
+    place-items: center;
+    
+}
+
+.menu div {
+
+    display: inline-block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.profile-pic{
+    
+    float: right;
+
+    width: 40%; 
+    height: auto;
+}
+
+.title{
+       
+    text-transform: uppercase;
+    font: 2vw "helvetica";
+    text-align: center;
+}
+
+.projetos{
+    text-align: center;
+
+}
