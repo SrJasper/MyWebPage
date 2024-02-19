@@ -56,11 +56,21 @@ body{
     transition: width 0.3s, height 0.3s; /* Adiciona a transição para a mudança de largura e altura */
 }
 
+.projeto p{
+    text-align: justify;
+}
+
 .projeto.aberto {
-    height: 200px; /* Defina a altura maior para divs abertas */
+    overflow: hidden;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto; /* Defina a altura maior para divs abertas */
 }
 
 .botao-jet, .botao-cv {
+    overflow: hidden;
     cursor: pointer;
     margin: 10px;
     width: 300px; /* Defina a largura fixa desejada para os botões */
