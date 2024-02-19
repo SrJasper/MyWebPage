@@ -17,10 +17,32 @@
         </div>
     </div>
 
-    <div class = "projetos">
+    <div class="projects-display" id="project-displayer">
         <h2>Projetos</h2>
 
+
+
+        <div class="projeto" style="width: auto;"> <!-- Adiciona um estilo inline para definir a largura inicial como 'auto' -->
+            <div class="botao-jet" onclick="toggleDetails('detalhes-jet')">JeT</div>
+            <div id="detalhes-jet" style="display: none;">
+                <p>Texto Jet.</p>
+                <a href="https://github.com/SrJasper/Jet/releases/tag/JeT" download>Ir para o GitHub</a>
+            </div>
+        </div>
+        
+        <div class="projeto" style="width: auto;">
+            <div class="botao-cv" onclick="toggleDetails('detalhes-cv')">CV</div>
+            <div id="detalhes-cv" style="display: none;">
+                <p>Texto Cv.</p>
+                <a href="#" onclick="downloadPDF('CV.pdf')">Baixar CV</a>
+            </div>
+        </div>
+        
+
+
     </div>
+    
+    <script src="behave.js"></script>
 
 
 </body>

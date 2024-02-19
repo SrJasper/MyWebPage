@@ -37,7 +37,37 @@ body{
     text-align: center;
 }
 
-.projetos{
+.projects-display {
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Disposição vertical dos itens */
+    align-items: center; /* Alinhamento horizontal centralizado */
+}
 
+.projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    outline: 2px solid #007bff;
+    height: 100px; /* Defina a altura fixa desejada */
+    width: 300px; /* Defina a largura fixa desejada para divs fechadas */
+    margin-bottom: 20px;
+    transition: width 0.3s, height 0.3s; /* Adiciona a transição para a mudança de largura e altura */
+}
+
+.projeto.aberto {
+    height: 200px; /* Defina a altura maior para divs abertas */
+}
+
+.projeto:not(.aberto) .botao-jet,
+.projeto:not(.aberto) .botao-cv {
+    width: 100px; /* Defina a largura inicial dos botões quando a div está fechada */
+}
+
+.botao-jet,
+.botao-cv {
+    cursor: pointer;
+    margin: 10px; /* Adiciona um pequeno espaçamento entre os botões */
+    width: 100px; /* Defina a largura inicial dos botões */
 }
