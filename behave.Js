@@ -1,5 +1,5 @@
 // Armazena os estilos originais da div
-var estilosOriginais = {};
+var detalhes = {};
 
 function toggleDetails(id) {
     var detalhes = document.getElementById(id);
@@ -8,27 +8,31 @@ function toggleDetails(id) {
     for (var i = 0; i < projetos.length; i++) {
         var detalhe = projetos[i].getElementsByTagName('div')[1];
         
-        if (!estilosOriginais[i]) {
-            // Armazena os estilos originais da div
-            estilosOriginais[i] = {
+        if (!detalhes[i]) {
+            detalhes[i] = {
                 display: detalhe.style.display,
                 width: projetos[i].style.width
             };
         }
         
         if (detalhe.id === id) {
-            if (detalhe.style.display === 'none') {
+            if (detalhe.style.display === '' || detalhe.style.display === 'none') {
                 detalhe.style.display = 'block';
-                projetos[i].classList.add('aberto'); // Adiciona a classe 'aberto'
+                projetos[i].classList.add('aberto');
                 projetos[i].style.width = '60%'; 
             } else {
                 detalhe.style.display = 'none';
-                projetos[i].classList.remove('aberto'); // Remove a classe 'aberto'
-                projetos[i].style.width = estilosOriginais[i].width; // Restaura a largura original
+                projetos[i].classList.remove('aberto');
+                projetos[i].style.width = detalhes[i].width;
             }
         } else {
-            detalhe.style.display = 'none';
+            if (detalhe.style.display === 'block') {
+                detalhe.style.display = 'none';
+                projetos[i].classList.remove('aberto'); // Remove a classe 'aberto'
+                projetos[i].style.width = detalhes[i].width; // Restaura a largura original
+            }
         }
+        
     }
 }
 
