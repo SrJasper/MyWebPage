@@ -49,7 +49,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    outline: 2px solid #007bff;
+    outline: 2px solid #546d88;
     height: 100px; /* Defina a altura fixa desejada */
     width: 300px; /* Defina a largura fixa desejada para divs fechadas */
     margin-bottom: 20px;
@@ -60,14 +60,8 @@ body{
     height: 200px; /* Defina a altura maior para divs abertas */
 }
 
-.projeto:not(.aberto) .botao-jet,
-.projeto:not(.aberto) .botao-cv {
-    width: 100px; /* Defina a largura inicial dos botões quando a div está fechada */
-}
-
-.botao-jet,
-.botao-cv {
+.botao-jet, .botao-cv {
     cursor: pointer;
-    margin: 10px; /* Adiciona um pequeno espaçamento entre os botões */
-    width: 100px; /* Defina a largura inicial dos botões */
+    margin: 10px;
+    width: 300px; /* Defina a largura fixa desejada para os botões */
 }
