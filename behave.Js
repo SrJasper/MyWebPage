@@ -1,33 +1,30 @@
-// Armazena os estilos originais da div
-var detalhes = {};
-
 function toggleDetails(id) {
     var detalhes = document.getElementById(id);
     var projetos = document.getElementsByClassName('projeto');
     
     for (var i = 0; i < projetos.length; i++) {
-        var detalhe = projetos[i].getElementsByTagName('div')[1];
+        var detalhes = projetos[i].getElementsByTagName('div')[1];
         
         if (!detalhes[i]) {
             detalhes[i] = {
-                display: detalhe.style.display,
+                display: detalhes.style.display,
                 width: projetos[i].style.width
             };
         }
         
-        if (detalhe.id === id) {
-            if (detalhe.style.display === '' || detalhe.style.display === 'none') {
-                detalhe.style.display = 'block';
+        if (detalhes.id === id) {
+            if (detalhes.style.display === '' || detalhes.style.display === 'none') {
+                detalhes.style.display = 'block';
                 projetos[i].classList.add('aberto');
                 projetos[i].style.width = '60%'; 
             } else {
-                detalhe.style.display = 'none';
+                detalhes.style.display = 'none';
                 projetos[i].classList.remove('aberto');
                 projetos[i].style.width = detalhes[i].width;
             }
         } else {
-            if (detalhe.style.display === 'block') {
-                detalhe.style.display = 'none';
+            if (detalhes.style.display === 'block') {
+                detalhes.style.display = 'none';
                 projetos[i].classList.remove('aberto'); // Remove a classe 'aberto'
                 projetos[i].style.width = detalhes[i].width; // Restaura a largura original
             }
