@@ -76,7 +76,7 @@ body{
     align-items: center; /* Adicionado */
 }
 
-.botao-jet, .botao-cv, .botao-tasks{
+.botao-jet, .botao-cv, .botao-tasks, .botao-calc{
     overflow: hidden;
     cursor: pointer;
     width: 300px;
@@ -85,4 +85,13 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 120%;
+}
+
+.dev-credits{
+
+    display: flex;
+    justify-content: center;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 3vw;
 }

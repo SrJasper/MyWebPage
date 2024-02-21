@@ -20,6 +20,18 @@
     <div class="projects-display" id="project-displayer">
         <h2>Projects</h2>
 
+
+        <div class="projeto"> 
+            <div class="botao-calc" onclick="toggleDetails('detalhes-calc')">Calculator</div>
+            <div id="detalhes-calc" style="display: none;">
+                <p>PlaceHolder Calc Text</p>
+                <div class="button-to-go">
+                    <a href="https://leoscalcproject.netlify.app" download>Go to Task Manager</a>
+                </div> 
+            </div>
+        </div>
+
+        
         <div class="projeto"> 
             <div class="botao-tasks" onclick="toggleDetails('detalhes-tasks')">Task Manager</div>
             <div id="detalhes-tasks" style="display: none;">
@@ -45,9 +57,10 @@
                 <a href="#" onclick="downloadPDF('CV.pdf')">Download CV</a>
             </div>
         </div>
-        
+    </div>
 
-
+    <div class="dev-credits">
+        Developed by Leonardo Fonseca
     </div>
     
     <script src="behave.js"></script>
