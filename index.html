@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos do Leo</title>
+    <title>Leo's projects</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,23 +18,31 @@
     </div>
 
     <div class="projects-display" id="project-displayer">
-        <h2>Projetos</h2>
+        <h2>Projects</h2>
 
+        <div class="projeto"> 
+            <div class="botao-tasks" onclick="toggleDetails('detalhes-tasks')">Task Manager</div>
+            <div id="detalhes-tasks" style="display: none;">
+                <p>Task Manager: It is an intuitive platform I crafted as part of a web development exercise. Combining HTML, CSS, and JavaScript, this site empowers you to efficiently manage your tasks by adding, marking as completed, or deleting as needed. Simplify your daily organization with Task Manager today!</p>
+                <div class="button-to-go">
+                    <a href="https://leostaskmanager.netlify.app" download>Go to Task Manager</a>
+                </div> 
+            </div>
+        </div>
 
-
-        <div class="projeto" style="width: auto;"> <!-- Adiciona um estilo inline para definir a largura inicial como 'auto' -->
+        <div class="projeto"> 
             <div class="botao-jet" onclick="toggleDetails('detalhes-jet')">JeT</div>
             <div id="detalhes-jet" style="display: none;">
                 <p>Jet is an app that I developed using Python and Kivy in a class I took at my college. It still has some bugs and minor issues, such as not being translated to English, but I have already achieved the functionality I needed. I don't think I will make any more updates.</p>
-                <a href="https://github.com/SrJasper/Jet/releases/tag/JeT" download>Ir para o GitHub</a>
+                <a href="https://github.com/SrJasper/Jet/releases/tag/JeT" download>Go to GitHub</a>
             </div>
         </div>
         
-        <div class="projeto" style="width: auto;">
+        <div class="projeto">
             <div class="botao-cv" onclick="toggleDetails('detalhes-cv')">CV</div>
             <div id="detalhes-cv" style="display: none;">
-                <p>Texto Cv.</p>
-                <a href="#" onclick="downloadPDF('CV.pdf')">Baixar CV</a>
+                <p>My curriculum.</p>
+                <a href="#" onclick="downloadPDF('CV.pdf')">Download CV</a>
             </div>
         </div>
         
