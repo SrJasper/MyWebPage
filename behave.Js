@@ -33,6 +33,9 @@ function toggleDetails(id) {
     }
 }
 
+function callLinkedIn(){
+    window.open('https://www.linkedin.com/in/leonardo-fonseca-97565326b/', '_blank');
+}
 
 function downloadPDF(filename) {
     // Cria um link temporário

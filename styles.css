@@ -87,11 +87,29 @@ body{
     font-size: 120%;
 }
 
-.dev-credits{
 
+.credits-display {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.name {
     opacity: 0.3;
-    text-align: center;
     font-size: 3vw;
+}
+
+.lin-button {
+    border: none;
+    margin-left: 2vw;
+    background-color: #546d8800;
+    cursor: pointer;
+    /* Remova o 'align-self: baseline;' */
+}
+
+.lin-logo {
+    height: 3vw;
+    width: auto;
 }
