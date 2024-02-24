@@ -1,0 +1,39 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;        
+}
+
+.main-line{
+    font-size: 80px;
+    white-space: nowrap;
+}
+
+.container-background{
+    background-color: rgb(112, 112, 112);
+    width: 100%;
+    flex-grow: 1;
+    position: absolute;
+    left: 0;
+
+}
+
+.container{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.page-sector{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page-text{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 20px;
+    font-weight: bold;
+}
