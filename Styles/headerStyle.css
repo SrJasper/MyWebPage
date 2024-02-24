@@ -13,6 +13,10 @@ body{
     background-size: 10vw;
 }
 
+.page-body{
+    display:block;
+}
+
 .header{
     height: 150px;
     width: 100%;
@@ -28,10 +32,6 @@ body{
     font-weight: bold;
     cursor: pointer;
     font-family: "Anton", serif;
-}
-
-.pagina-inicial{
-    color: green;
 }
 
 .profile-pic{

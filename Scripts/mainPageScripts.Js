@@ -1,5 +1,6 @@
-document.getElementById("heaeder-button-Projetos").addEventListener("click", function() {
-    //window.open('URL PAGINA PROJETOS', '_blank');
+document.getElementById("button-projetos").addEventListener("click", function() {
+   
+    window.location.href = "Pages/projectsPage.html";    
 });
 
 document.getElementById("heaeder-button-sobreMim").addEventListener("click", function() {

@@ -7,6 +7,10 @@
     width: 915px;
 }
 
+.pagina-projetos{
+    color: green;
+}
+
 .main-line {
     font-size: 80px;
     white-space: nowrap;
