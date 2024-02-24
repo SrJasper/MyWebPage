@@ -1,0 +1,24 @@
+.main-line{
+    margin-left:5%;
+    font-size: 25px;
+}
+
+.pagina-inicial{
+    color:green;
+}
+
+.container-background{
+    background-color: rgb(46, 46, 46);
+}
+
+.container div{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.page-image{
+    margin-top: 20px;
+    width: 300px;
+}

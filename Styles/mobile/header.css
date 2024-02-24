@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;    
+    color: #484848;
+    font-family: "Enriqueta", serif;     
+}
+
+body{
+    background-image: url('../images/background2.png');
+    background-size: 5vw;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:5%;
+    margin-right:7%;
+}
+
+.header div{
+    font-family: "Anton", serif;
+}
+
+.profile-pic{
+    height: 50px;
+}
+
+.credits{
+}
+
+.credits img{
+}

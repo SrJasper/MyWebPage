@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Fonseca</title>
-    <link rel="stylesheet" href="Styles/headerStyle.css">
-    <link rel="stylesheet" href="Styles/bodyStyles.css">
+
+    <!-- Estilo PC -->
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="Styles/PC/header.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)"href="Styles/PC/mainBody.css">
+    
+    <!-- Estilo para celular -->
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="Styles/mobile/header.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="Styles/mobile/mainBody.css">
+    
 
     <!-- Add de Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <!-- Add de Fontes -->
+
 </head>
 <body>
     
@@ -23,15 +30,15 @@
         <div class="header">
             <img class="profile-pic" src="./Images/profile-pic.png" alt="">
             
-            <div class="header-pages pagina-inicial">
+            <div class="pagina-inicial">
                 Pagina inicial
             </div>
 
-            <div class="header-pages pagina-sobre-mim" id="button-sobre-mim">
+            <div class="pagina-sobre-mim" id="button-sobre-mim">
                 Sobre mim
             </div>
             
-            <div class="header-pages pagina-projetos" id="button-projetos">
+            <div class="pagina-projetos" id="button-projetos">
                 Projetos
             </div>
             
