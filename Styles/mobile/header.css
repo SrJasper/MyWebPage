@@ -32,15 +32,21 @@ body{
 }
 
 .credits{
-    display: flex;
+    display: grid;
     justify-content:center;
     align-items: center;
     margin-bottom: 5%;
     margin-top: 5%;
+    font-size: 20px;
+}
+
+.credits-icons{
+    display:flex;
+    justify-content: center;
 }
 
 .credits img{
-    margin-left: 2%;
-    width: 15px;
-    height: 15px;
+    margin: 5%;
+    width: 30px;
+    height: 30px;
 }
