@@ -26,8 +26,21 @@ body{
     height: 50px;
 }
 
+.main-line{
+    margin-left:5%;
+    font-size: 25px;
+}
+
 .credits{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .credits img{
+    margin-left: 2%;
+    width: 15px;
+    height: 15px;
 }

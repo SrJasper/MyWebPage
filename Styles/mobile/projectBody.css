@@ -1,0 +1,47 @@
+.projects-presentation{
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.pagina-projetos{
+    color:green;
+}
+
+.separation-line{
+    height: 2px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: green;
+}
+
+.project-tab{
+    display: grid;
+    margin-bottom: 10%;
+}
+
+.img-placeholder{
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    align-self: center;
+    justify-self: center;
+}
+
+.projects-texts{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.project-title{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
