@@ -3,78 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leo's projects</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Leonardo Fonseca</title>
+    <link rel="stylesheet" href="Styles/headerStyle.css">
+    <link rel="stylesheet" href="Styles/bodyStyles.css">
+
+    <!-- Add de Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- Add de Fontes -->
 </head>
 <body>
-    <div class = "menu">
-        <div class= "pic-div">            
-            <img class = "profile-pic"
-            src="Images/profile-pic.png" alt="img-perfil">
-        </div>
-        <div class = "title">
-            <h1>Dev Leonardo Fonseca</h1>
+    
+    <div>
+        <div class="header">
+            <img class="profile-pic" src="./Images/profile-pic.png" alt="">
+            
+            <div class="header-pages pagina-inicial">
+                Pagina inicial
+            </div>
+
+            <div class="header-pages" id="heaeder-button-sobreMim">
+                Sobre mim
+            </div>
+            
+            <div class="header-pages" id="heaeder-button-Projetos">
+                Projetos
+            </div>
             
         </div>
+
+        <h1 class="main-line">
+            Transformando linhas de
+        </h1>
+        <h1 class="main-line">
+            código em soluções
+        </h1>
+        <h1 class="main-line">
+            inovadoras e funcionais
+        </h1>
+
+        <div class="container-background">
+            <div class="container">
+                <div class="page-sector">   
+                    <img src="Images/guy-Icon.png" alt="" class="page-image">
+                    <div class="page-text">
+                        sobre mim
+                    </div>
+                </div>
+                <div class="page-sector">   
+                    <img src="Images/pc.png" alt="" class="page-image">
+                    <div class="page-text">
+                        Projetos
+                    </div>
+                </div>
+                <div class="page-sector">   
+                    <img src="Images/Contact.png" alt="" class="page-image">
+                    <div class="page-text">
+                        Contato
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="credits">
+            <div class="insta"></div>
+            <div class="linkedIN"></div>
+            <div class="wpp"></div>
+        </div>  
     </div>
 
-    <div class="projects-display" id="project-displayer">
-        <h2>Projects</h2>
-
-
-        <div class="projeto"> 
-            <div class="botao-calc" onclick="toggleDetails('detalhes-calc')">Calculator</div>
-            <div id="detalhes-calc" style="display: none;">
-                <p>PlaceHolder Calc Text</p>
-                <div class="button-to-go">
-                    <a href="https://leoscalcproject.netlify.app" download>Go to Task Manager</a>
-                </div> 
-            </div>
-        </div>
-
-        
-        <div class="projeto"> 
-            <div class="botao-tasks" onclick="toggleDetails('detalhes-tasks')">Task Manager</div>
-            <div id="detalhes-tasks" style="display: none;">
-                <p>Task Manager: It is an intuitive platform I crafted as part of a web development exercise. Combining HTML, CSS, and JavaScript, this site empowers you to efficiently manage your tasks by adding, marking as completed, or deleting as needed. Simplify your daily organization with Task Manager today!</p>
-                <div class="button-to-go">
-                    <a href="https://leostaskmanager.netlify.app" download>Go to Task Manager</a>
-                </div> 
-            </div>
-        </div>
-
-        <div class="projeto"> 
-            <div class="botao-jet" onclick="toggleDetails('detalhes-jet')">JeT</div>
-            <div id="detalhes-jet" style="display: none;">
-                <p>Jet is an app that I developed using Python and Kivy in a class I took at my college. It still has some bugs and minor issues, such as not being translated to English, but I have already achieved the functionality I needed. I don't think I will make any more updates.</p>
-                <a href="https://github.com/SrJasper/Jet/releases/tag/JeT" download>Go to GitHub</a>
-            </div>
-        </div>
-        
-        <div class="projeto">
-            <div class="botao-cv" onclick="toggleDetails('detalhes-cv')">CV</div>
-            <div id="detalhes-cv" style="display: none;">
-                <p>Thank you for visiting my website! It's a pleasure to share my work and dedicated projects. Check out my resume for more details about me and my skills. I hope we can connect further through my work.</p>
-                <a href="#" onclick="downloadPDF('CV.pdf')">Download CV</a>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="credits-display">
-
-        <div class="name">
-            Developed by Leonardo Fonseca
-        </div>
-        
-        <div class="lin-button">
-            <img class="lin-logo" onclick="callLinkedIn()" src="Images/linkedin-logo.png" alt="linkedIn-logo">
-        </div>
-        
-    </div>    
-    
-    <script src="scripts.Js"></script>
-
-
+    <script src="Scripts/mainPageScripts.Js"></script>
 </body>
 </html>
