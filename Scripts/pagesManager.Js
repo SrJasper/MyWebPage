@@ -1,5 +1,5 @@
 function buttonMainPage(){
-    window.location.href = "index.html";    
+    window.location.href = "../index.html";    
 }
 
 function buttonProjetos(){
