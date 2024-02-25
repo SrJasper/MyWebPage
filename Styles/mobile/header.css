@@ -6,8 +6,8 @@
 }
 
 body{
-    background-image: url('../images/background2.png');
-    background-size: 5vw;
+    background-image: url('../../images/background2.png');
+    background-size: 20vw;
 }
 
 .header{

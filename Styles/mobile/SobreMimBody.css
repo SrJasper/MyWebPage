@@ -2,7 +2,7 @@
     color: green;
 }
 
-.main-line {
+/* .main-line {
     font-size: 80px;
     white-space: nowrap;
     padding: 5px;
@@ -10,7 +10,7 @@
     animation: slideIn 2s forwards;
     font-family: "Enriqueta", sans-serif;
     font-weight: lighter;
-}
+} */
 
 @keyframes slideIn {
     from {
@@ -23,28 +23,31 @@
 
 .SM-bg {
     margin-top: 5%;
-    background-image: url('../../Images/monitor.png');
-    background-size: cover;
+    background-image: url('../../Images/cel.png');
+    background-size: 400px 700px;
     background-position: center;
+    background-repeat: no-repeat;
     height: 710px;    
     display: flex;
     justify-content: center;
 } 
 
-.SM-bg div{
-    margin-right: 3%;
-    color:rgb(200, 200, 200);
-}
 
-.txt-cima{
-    margin-top: 15%;
+.SM-text-field{
+    margin-top: 18%;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 19px;
+    hyphens: auto;
 }
 
 .SM-texto{
+    color:rgb(200, 200, 200);
     padding: 1%;
-    width: 350px;
+    width: 100%;
     text-align: justify;
     line-height: 1.5;
+    margin-bottom: 10px;
 }
 
 .linguagens-texto{
@@ -58,7 +61,15 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+.linguagens-grid > * {
+    margin-bottom: -10px; /* Compensa a margem na parte inferior para os elementos filhos */
+}
+
 
 .linguagem{
     display: flex;
@@ -70,12 +81,12 @@
 
 .lg-nome{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .lg-img img{
-    height: 100px;
-    width: 100px;    
+    height: 80px;
+    width: 80px;    
 }
 
 .force-down{
