@@ -22,33 +22,29 @@
 }
 
 .SM-bg {
-    margin-top: 8%;
+    margin-top: 5%;
     background-image: url('../../Images/monitor.png');
     background-size: cover;
     background-position: center;
-    height: 710px;
-    width: 100%; /* Use 100% para ocupar toda a largura disponível */
+    height: 710px;    
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-@media only screen and (min-width: 926px) {
-    .SM-bg {
-        background-size: contain; /* Alterna para 'contain' para garantir que a imagem inteira seja visível */
-    }
-}
+} 
 
 .SM-bg div{
     margin-right: 3%;
     color:rgb(200, 200, 200);
 }
 
+.txt-cima{
+    margin-top: 15%;
+}
+
 .SM-texto{
-    height: 450px;
+    padding: 1%;
     width: 350px;
-    padding-bottom: 120px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .linguagens-texto{
@@ -77,8 +73,7 @@
     font-size: 20px;
 }
 
-.lg-img{
-    background-color: #484848;
+.lg-img img{
     height: 100px;
     width: 100px;    
 }
