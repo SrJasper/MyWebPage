@@ -5,6 +5,8 @@
 }
 
 .container-background{
+    margin-top: 20px;
+    padding-bottom: 20px;
     background-color: rgb(46, 46, 46);
 }
 

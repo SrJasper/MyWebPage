@@ -34,15 +34,15 @@
         <div class="header">
             <img class="profile-pic" src="../Images/profile-pic.png" alt="">
             
-            <div class="pagina-inicial" id="button-pagina-inicial">
+            <div class="pagina-inicial" onclick="buttonMainPage()">
                 Pagina inicial
             </div>
 
-            <div class="pagina-sobre-mim" id="button-sobre-mim">
+            <div class="pagina-sobre-mim" onclick="buttonSobreMim()">
                 Sobre mim
             </div>
             
-            <div class="pagina-projetos" id="button-Projetos">
+            <div class="pagina-projetos">
                 Projetos
             </div>
             
@@ -50,7 +50,7 @@
 
         <div class="main-line-size">    
             <h1 class="main-line">
-                Meus projetos!
+                Meus projetos.
             </h1>
         </div>
         
@@ -61,43 +61,62 @@
 
         <div class="separation-line"></div>
 
-        <div class="project-tab">
-            <!-- <img class="project-image" src="../Images/guy-Icon.png" alt="img-1"> -->
-            <div class="img-placeholder"></div>
+        <div class="project-tab" onclick="Calc()">
+            <div class="project-icon" >
+                <img src="../Images/calc.png" alt="">
+            </div>
             <div class="projects-texts">
                 <div class="project-title">
                     Calculadora
                 </div>
                 <div class="project-descrition">
                     Criei uma calculadora funcional. Esta aplicação combina desenvolvimento HTML, CSS e Lógica JavaScript, demonstrando meu domínio das tecnologias web. Explore a simplicidade e eficiência desta calculadora desenvolvida com paixão e habilidade.</div>
-            </div>
-        </div>
-
-        <div class="separation-line"></div>
-
-        <div class="project-tab">
-            <!-- <img class="project-image" src="../Images/guy-Icon.png" alt="img-1"> -->
-            <div class="img-placeholder"></div>
-            <div class="projects-texts">
-                <div class="project-title">
-                    Organizador de tarefas
-                </div>
-                <div class="project-descrition">
-                    Desenvolvi um organizador de tarefas intuitivo e versátil, utilizando HTML, CSS e JavaScript. Os usuários podem gerenciar suas tarefas de forma eficiente, adicionando, removendo e marcando tarefas concluídas em uma interface amigável e funcional.    
                 </div>
             </div>
-        </div>
-        
-        <div class="separation-line"></div>
-        <div class="project-tab">
-            <!-- <img class="project-image" src="../Images/guy-Icon.png" alt="img-1"> -->
-            <div class="img-placeholder"></div>
-            <div class="projects-texts">
-                <div class="project-title">
-                    Estoque
+            
+            <div class="separation-line"></div>
+            
+            <div class="project-tab" onclick="TM()">
+                <div class="project-icon">
+                    <img src="../Images/task.png" alt="">
                 </div>
+                <div class="projects-texts">
+                    <div class="project-title">
+                        Organizador de tarefas
+                    </div>
+                    <div class="project-descrition">
+                        Desenvolvi um organizador de tarefas intuitivo e versátil, utilizando HTML, CSS e JavaScript. Os usuários podem gerenciar suas tarefas de forma eficiente, adicionando, removendo e marcando tarefas concluídas em uma interface amigável e funcional.    
+                    </div>
+                </div>
+            </div>
+            
+            <div class="separation-line"></div>
+            <div class="project-tab">
+                <div class="project-icon">
+                    <img src="../Images/store.png" alt="">
+                    <!-- Colocar a imagem aq -->
+                </div>
+                <div class="projects-texts">
+                    <div class="project-title">
+                        Estoque
+                    </div>
+                    <div class="project-descrition">
+                        No projeto de estoque, utilizei Node.js e MySQL para desenvolver um sistema de gerenciamento de estoque eficiente e escalável. Esta solução aborda as demandas de armazenamento, atualização e busca de produtos, destacando minha competência no desenvolvimento back-end e na resolução de desafios complexos com eficácia.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="separation-line"></div>
+            <div class="project-tab" onclick="JeT()">
+                <div class="project-icon">
+                    <img src="../Images/jet.png" alt="">
+                </div>
+                <div class="projects-texts">
+                    <div class="project-title">
+                        JeT
+                    </div>
                 <div class="project-descrition">
-                    No projeto de estoque, utilizei Node.js e MySQL para desenvolver um sistema de gerenciamento de estoque eficiente e escalável. Esta solução aborda as demandas de armazenamento, atualização e busca de produtos, destacando minha competência no desenvolvimento back-end e na resolução de desafios complexos com eficácia.
+                    Conheça o JeT: um aplicativo Python criado para simplificar a organização de Jogos entre Amigos. Com apenas alguns cliques, o aplicativo distribui os participantes em equipes de forma aleatória, formando as equipes automáticamente.
                 </div>
             </div>
         </div>
@@ -114,7 +133,8 @@
         </div>  
     </div>
 
-    <script src="../Scripts/projectsScripts.Js"></script>
+    <script src="../Scripts/pagesManager.Js"></script>
+    <script src="../Scripts/projectsManager.Js"></script>
     <script src="../Scripts/creditsScripts.JS"></script>
 </body>
 </html>

@@ -11,13 +11,6 @@
     color:green;
 }
 
-.separation-line{
-    height: 2px;
-    width: 80%;
-    margin-left: 10%;
-    background-color: green;
-}
-
 .project-tab{
     display: grid;
     margin-bottom: 10%;

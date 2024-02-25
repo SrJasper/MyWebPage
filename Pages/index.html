@@ -6,12 +6,12 @@
     <title>Leonardo Fonseca</title>
 
     <!-- Estilo PC -->
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="Styles/PC/header.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px)"href="Styles/PC/mainBody.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../Styles/PC/header.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)"href="../Styles/PC/mainBody.css">
     
     <!-- Estilo para celular -->
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="Styles/mobile/header.css">
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="Styles/mobile/mainBody.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../Styles/mobile/header.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../Styles/mobile/mainBody.css">
     
 
     <!-- Add de Fontes -->
@@ -28,17 +28,17 @@
     
     <div>
         <div class="header">
-            <img class="profile-pic" src="./Images/profile-pic.png" alt="">
+            <img class="profile-pic" src="../Images/profile-pic.png" alt="">
             
             <div class="pagina-inicial">
                 Pagina inicial
             </div>
 
-            <div class="pagina-sobre-mim" id="button-sobre-mim">
+            <div class="pagina-sobre-mim" onclick="buttonSobreMim()">
                 Sobre mim
             </div>
             
-            <div class="pagina-projetos" id="button-projetos">
+            <div class="pagina-projetos" onclick="buttonProjetos()">
                 Projetos
             </div>
             
@@ -51,25 +51,25 @@
             código em soluções
         </h1>
         <h1 class="main-line">
-            inovadoras e funcionais
+            inovadoras e funcionais.
         </h1>
 
         <div class="container-background">
             <div class="container">
-                <div class="page-sector">   
-                    <img src="Images/guy-Icon.png" alt="" class="page-image">
+                <div class="page-sector" onclick="buttonSobreMim()">   
+                    <img src="../Images/guy-Icon.png" alt="" class="page-image">
                     <div class="page-text">
                         sobre mim
                     </div>
                 </div>
-                <div id="button-projetos2" class="page-sector">   
-                    <img src="Images/pc.png" alt="" class="page-image">
+                <div class="page-sector" onclick="buttonProjetos()">   
+                    <img src="../Images/pc.png" alt="" class="page-image">
                     <div class="page-text">
                         Projetos
                     </div>
                 </div>
-                <div class="page-sector">   
-                    <img src="Images/Contact.png" alt="" class="page-image">
+                <div class="page-sector" onclick="buttonContato()">   
+                    <img src="../Images/Contact.png" alt="" class="page-image">
                     <div class="page-text">
                         Contato
                     </div>
@@ -90,7 +90,7 @@
 
     
 
-    <script src="Scripts/mainPageScripts.Js"></script>
-    <script src="Scripts/creditsScripts.JS"></script>
+    <script src="../Scripts/pagesManager.Js"></script>
+    <script src="../Scripts/creditsScripts.JS"></script>
 </body>
 </html>
