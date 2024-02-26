@@ -134,6 +134,17 @@
 
     <script src="../Scripts/pagesManager.Js"></script>
     <script src="../Scripts/creditsScripts.JS"></script>
-    <script src="../Scripts/sobreMimScript.JS"></script>
+
+    <script>
+        // Verifica se o dispositivo é um desktop
+        if (window.innerWidth > 768) {
+            // Se sim, carrega o script apenas para desktops
+            var script = document.createElement('script');
+            script.src = '../Scripts/sobreMimScript.js';
+            document.body.appendChild(script);
+        }
+    </script>
+
+
 </body>
 </html>
