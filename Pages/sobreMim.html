@@ -52,10 +52,10 @@
         <div class="SM-bg">
             <div class="SM-text-field">    
                 <div id="texto-animado" class="SM-texto">
-                    <!-- texto -->
+                    <!-- TEXTOOOOO -->
                 </div>
-                <div id="texto2-animado" class="SM-texto">
-                    <!-- texto -->
+                <div id="texto2-animado" class="SM-texto">   
+                    <!-- TEXTOOOOO -->
                 </div>
             </div>
         </div>
@@ -145,6 +145,17 @@
         }
     </script>
 
+    <script>
+        if (window.innerWidth <= 768) {
+            // Se sim, adiciona o conteúdo que deseja mostrar apenas em dispositivos móveis
+            var textoAnimado = document.getElementById('texto-animado');
+            var texto2Animado = document.getElementById('texto2-animado');
+            
+            textoAnimado.innerHTML = 'Oi, sou o Leonardo Fonseca, formado pela UNIFESP e um entusiasta fervoroso da tecnologia. Desde os tempos de faculdade, mergulhei de cabeça nesse universo fascinante. Conhecido pelo meu foco implacável e pela busca constante de crescimento, tanto pessoal quanto profissionalmente.';
+            texto2Animado.innerHTML = 'Com um olhar afiado para solucionar problemas, encaro cada desafio como uma oportunidade de aprendizado e crescimento. Acredito que a combinação da minha formação acadêmica com minha paixão pela tecnologia me capacita a enfrentar obstáculos de forma eficaz, buscando sempre soluções inovadoras e impactantes.';
+        }
+            
+    </script>
 
 </body>
 </html>
