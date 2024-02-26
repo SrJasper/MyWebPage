@@ -20,8 +20,9 @@
         transform: translateX(0);
     }
 }
-
+/* 
 .SM-bg {
+    position: relative; 
     margin-top: 5%;
     background-image: url('../../Images/cel.png');
     background-size: 400px 700px;
@@ -32,14 +33,34 @@
     justify-content: center;
 } 
 
-
 .SM-text-field{
+    position: absolute; 
+    top: 18%;   
+    left: 15%;  
+    right: 15%; 
+    font-size: 19px;
+    hyphens: auto;
+}
+ */
+.SM-bg {
+    margin-top: 5%;
+    background-image: url('../../Images/cel.png');
+    background-size: 90vw 175vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175vw;    
+    display: flex;
+    justify-content: center;
+} 
+.SM-text-field{
+margin-top: 18%;
     margin-top: 18%;
     margin-right: 15%;
     margin-left: 15%;
     font-size: 19px;
     hyphens: auto;
 }
+
 
 .SM-texto{
     color:rgb(200, 200, 200);
