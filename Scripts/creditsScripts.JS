@@ -7,5 +7,16 @@ document.getElementById("lkdIn-button").addEventListener("click", function() {
 document.getElementById("wpp-button").addEventListener("click", function() {
     window.open('https://wa.me/5512997772296', '_blank');
 });
+document.getElementById("github-button").addEventListener("click", function() {
+    window.open('https://github.com/SrJasper', '_blank');
+});
+document.getElementById("CV-button").addEventListener("click", function() {
+    var link = document.createElement('a');
+    link.href = '../CV.pdf'; 
+    link.download = 'CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
 
 
