@@ -41,6 +41,7 @@
     justify-content: space-around;
     margin-top: 5%;
     margin-bottom: 5%;
+    cursor: pointer;
 }
 
 .project-icon img{
