@@ -9,3 +9,7 @@ function TM(){
 function JeT(){
     window.location.href = "https://github.com/SrJasper/Jet/releases/tag/JeT";
 }
+
+function Store(){
+    window.location.href = "https://loja.leosstore.shop/listar/todos";
+}
