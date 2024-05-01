@@ -1,15 +1,20 @@
 function Calc(){
-    window.location.href = "https://leoscalcproject.netlify.app/";
+    window.open("https://leoscalcproject.netlify.app/", "StockPage");
 }
 
 function TM(){
-    window.location.href = "https://leostaskmanager.netlify.app/";
+    window.open("https://leostaskmanager.netlify.app/", "StockPage");
 }
 
 function JeT(){
-    window.location.href = "https://github.com/SrJasper/Jet/releases/tag/JeT";
+    window.open("https://github.com/SrJasper/Jet/releases/tag/JeT", "StockPage");
 }
 
 function Store(){
-    window.location.href = "https://loja.leosstore.shop/listar/todos";
+    window.open("https://loja.leosstore.shop/listar/todos", "StockPage");
+    
+}
+
+function Stock() {
+    window.open("https://stock-front-react.vercel.app", "StockPage");
 }
