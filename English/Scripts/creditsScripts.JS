@@ -7,9 +7,6 @@ document.getElementById("lkdIn-button").addEventListener("click", function() {
 document.getElementById("wpp-button").addEventListener("click", function() {
     window.open('https://wa.me/5512997772296', '_blank');
 });
-document.getElementById("wpp-button-2").addEventListener("click", function() {
-    window.open('https://wa.me/5512997772296', '_blank');
-});
 document.getElementById("github-button").addEventListener("click", function() {
     window.open('https://github.com/SrJasper', '_blank');
 });

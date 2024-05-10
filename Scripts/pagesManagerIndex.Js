@@ -9,3 +9,9 @@ function buttonSobreMim(){
 function buttonContato(){
     window.location.href = "./Pages/contato.html";
 }
+
+function indexEnglish(){
+    window.location.href = "./English/indexEn.html";    
+}
+
+

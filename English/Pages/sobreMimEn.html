@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Fonseca</title>
-    <link rel="icon" href="../Images/Leo-Icon.ico">
+    <link rel="icon" href="../../Images/Leo-Icon.ico">
 
     <!-- Estilo PC -->
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../Styles/PC/header.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px)"href="../Styles/PC/SobreMimBody.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../../Styles/PC/header.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)"href="../../Styles/PC/SobreMimBody.css">
     
     <!-- Estilo para celular -->
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../Styles/mobile/header.css">
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../Styles/mobile/sobreMimBody.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../../Styles/mobile/header.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../../Styles/mobile/sobreMimBody.css">
     
 
     <!-- Add de Fontes -->
@@ -39,27 +39,27 @@
     
     <div>
         <div class="header">
-            <img class="profile-pic" src="../Images/profile-pic.png" alt="">
+            <img class="profile-pic" src="../../Images/profile-pic.png" alt="">
             
             <div class="pagina-inicial" onclick="buttonMainPage()">
-                Pagina inicial
+                Home
             </div>
 
             <div class="pagina-sobre-mim" onclick="">
-                Sobre mim
+                About me
             </div>
             
             <div class="pagina-projetos" onclick="buttonProjetos()">
-                Projetos
+                Projects
             </div>            
         </div>
 
         <div class="language">
-            <img src="../Images/EUA.png" alt="" onclick="indexEnSobreMim()">
+            <img src="../../Images/BRA.png" alt="" onclick="indexBraSobreMim()">
         </div>
 
         <h1 class="main-line">
-            Sobre mim.
+            About me.
         </h1>
 
         <div class="separation-line"></div>
@@ -76,14 +76,14 @@
         </div>
         
         <div class="linguagens-texto">
-            Tecnologias em que desenvolvo.
+            The technologies in which I develop.
         </div>
         
         
         <div class="linguagens-grid">
             <div class="linguagem">
                 <div class="lg-img">
-                    <img src="../Images/python-icon.png" alt="">                
+                    <img src="../../Images/python-icon.png" alt="">                
                 </div>
                 <div class="lg-nome">
                     Python
@@ -91,7 +91,7 @@
             </div>
             <div class="linguagem">
                 <div class="lg-img">                    
-                    <img src="../Images/js-icon.png" alt="">                
+                    <img src="../../Images/js-icon.png" alt="">                
                 </div>
                 <div class="lg-nome">
                     JavaScript
@@ -99,7 +99,7 @@
             </div>
             <div class="linguagem">
                 <div class="lg-img">                    
-                    <img src="../Images/html-icon.png" alt="">                
+                    <img src="../../Images/html-icon.png" alt="">                
                 </div>
                 <div class="lg-nome">
                     HTML
@@ -107,7 +107,7 @@
             </div>
             <div class="linguagem">
                 <div class="lg-img">                    
-                    <img src="../Images/css-icon.png" alt="">                
+                    <img src="../../Images/css-icon.png" alt="">                
                 </div>
                 <div class="lg-nome">
                     CSS
@@ -115,7 +115,7 @@
             </div>
             <div class="linguagem">
                 <div class="lg-img">                    
-                    <img src="../Images/nodejs-icon.png" alt="">                
+                    <img src="../../Images/nodejs-icon.png" alt="">                
                 </div>
                 <div class="lg-nome">
                     Node.JS
@@ -123,7 +123,7 @@
             </div>
             <div class="linguagem">
                 <div class="lg-img">                    
-                    <img src="../Images/sql-icon.png" alt="">                
+                    <img src="../../Images/sql-icon.png" alt="">                
                 </div>
                 <div class="lg-nome">
                     MySQL
@@ -137,11 +137,11 @@
         <div class="credits">
             Made by Leonardo Fonseca
             <div class="credits-icons">
-                <img id="ig-button" src="../Images/IG.png" alt="">
-                <img id="lkdIn-button" src="../Images/linkedin-logo.png" alt="">
-                <img id="wpp-button" src="../Images/wpp.png" alt="">
-                <img id="github-button" src="../Images/github.png" alt="">
-                <img id="CV-button" src="../Images/CV.png" alt="">            
+                <img id="ig-button" src="../../Images/IG.png" alt="">
+                <img id="lkdIn-button" src="../../Images/linkedin-logo.png" alt="">
+                <img id="wpp-button" src="../../Images/wpp.png" alt="">
+                <img id="github-button" src="../../Images/github.png" alt="">
+                <img id="CV-button" src="../../Images/CV.png" alt="">            
             </div>
         </div>
         
@@ -153,6 +153,7 @@
     <script src="../Scripts/creditsScripts.JS"></script>
 
     <script>
+        
         if (window.innerWidth > 768) {
             var script = document.createElement('script');
             script.src = '../Scripts/sobreMimScript.js';
@@ -164,8 +165,9 @@
         if (window.innerWidth <= 768) {
             // Se sim, adiciona o conteúdo que deseja mostrar apenas em dispositivos móveis
             var textoAnimado = document.getElementById('texto-animado');
-            var texto2Animado = document.getElementById('texto2-animado');  
-        }            
+            var texto2Animado = document.getElementById('texto2-animado');
+        }
+            
     </script>
 
 </body>

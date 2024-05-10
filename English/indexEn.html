@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Fonseca</title>
-    <link rel="icon" href="../Images/Leo-Icon.ico">
+    <link rel="icon" href="../../Images/Leo-Icon.ico">
 
     <!-- Estilo PC -->
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="Styles/PC/header.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px)"href="Styles/PC/mainBody.css">
-    
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../Styles/PC/header.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../Styles/PC/mainBody.css">
+
     <!-- Estilo para celular -->
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="Styles/mobile/header.css">
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="Styles/mobile/mainBody.css">
-    
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../Styles/mobile/header.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="../Styles/mobile/mainBody.css">
+
 
     <!-- Add de Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
-   
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -28,7 +29,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RL3ZYDRD2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-1RL3ZYDRD2');
@@ -36,57 +37,54 @@
 
 
 </head>
+
 <body>
-    
+
     <div>
         <div class="header">
-            <img class="profile-pic" src="Images/profile-pic.png" alt="">
-            
+            <img class="profile-pic" src="../../Images/profile-pic.png" alt="">
+
             <div class="pagina-inicial">
-                Pagina inicial
+                Home
             </div>
 
             <div class="pagina-sobre-mim" onclick="buttonSobreMim()">
-                Sobre mim
+                About me
             </div>
-            
+
             <div class="pagina-projetos" onclick="buttonProjetos()">
-                Projetos
-            </div>            
+                Projects
+            </div>
         </div>
 
         <div class="language">
-            <img src="Images/EUA.png" alt="" onclick="indexEnglish()">
+            <img src="../../Images/BRA.png" alt="" onclick="indexBra()">
         </div>
 
         <h1 class="main-line">
-            Transformando linhas de
-        </h1>
-        <h1 class="main-line">
-            código em soluções
-        </h1>
-        <h1 class="main-line">
-            inovadoras e funcionais.
+            Transforming lines of <br>
+            code into innovative <br>
+            and functional solutions.
         </h1>
 
         <div class="container-background">
             <div class="container">
-                <div class="page-sector" onclick="buttonSobreMim()">   
-                    <img src="Images/guy-Icon.png" alt="" class="page-image">
+                <div class="page-sector" onclick="buttonSobreMim()">
+                    <img src="../../Images/guy-Icon.png" alt="" class="page-image">
                     <div class="page-text">
-                        sobre mim
+                        About me
                     </div>
                 </div>
-                <div class="page-sector" onclick="buttonProjetos()">   
-                    <img src="Images/pc.png" alt="" class="page-image">
+                <div class="page-sector" onclick="buttonProjetos()">
+                    <img src="../../Images/pc.png" alt="" class="page-image">
                     <div class="page-text">
-                        Projetos
+                        Projects
                     </div>
                 </div>
-                <div class="page-sector" onclick="buttonContato()">   
-                    <img src="Images/Contact.png" alt="" class="page-image">
+                <div class="page-sector" onclick="buttonContato()">
+                    <img src="../../Images/Contact.png" alt="" class="page-image">
                     <div class="page-text">
-                        Contato
+                        Contact
                     </div>
                 </div>
             </div>
@@ -95,19 +93,20 @@
         <div class="credits force-down">
             Made by Leonardo Fonseca
             <div class="credits-icons">
-                <img id="ig-button" src="Images/IG.png" alt="">
-                <img id="lkdIn-button" src="Images/linkedin-logo.png" alt="">
-                <img id="wpp-button" src="Images/wpp.png" alt="">
-                <img id="github-button" src="../Images/github.png" alt="">
-                <img id="CV-button" src="../Images/CV.png" alt="">              
+                <img id="ig-button" src="../../Images/IG.png" alt="">
+                <img id="lkdIn-button" src="../../Images/linkedin-logo.png" alt="">
+                <img id="wpp-button" src="../../Images/wpp.png" alt="">
+                <img id="github-button" src="../../Images/github.png" alt="">
+                <img id="CV-button" src="../../Images/CV.png" alt="">
             </div>
         </div>
 
     </div>
 
-    
+
 
     <script src="Scripts/pagesManagerIndex.Js"></script>
     <script src="Scripts/creditsScripts.JS"></script>
 </body>
+
 </html>

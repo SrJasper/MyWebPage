@@ -11,5 +11,14 @@ function buttonSobreMim(){
 }
 
 function buttonContato(){
-    window.location.href = "contato.html";
+    window.open('https://wa.me/5512997772296', '_blank');
 }
+
+function indexEnProj(){
+    window.location.href = "../../English/Pages/projectsEn.html";
+}
+
+function indexEnSobreMim(){
+    window.location.href = "../../English/Pages/SobreMimEn.html";
+}
+
