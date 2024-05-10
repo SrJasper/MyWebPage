@@ -4,6 +4,21 @@
     color:green;
 }
 
+.language{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4rem;
+    margin-right: 1.5rem;
+    color: green;
+}
+
+.language img{
+    border: 3px solid rgb(67, 67, 67);
+    height: 20px;
+    cursor: pointer;
+}
+
 .container-background{
     margin-top: 20px;
     padding-bottom: 20px;

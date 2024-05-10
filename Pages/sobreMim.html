@@ -160,13 +160,24 @@
         }
     </script>
 
-    <script>
-        if (window.innerWidth <= 768) {
-            // Se sim, adiciona o conteúdo que deseja mostrar apenas em dispositivos móveis
-            var textoAnimado = document.getElementById('texto-animado');
-            var texto2Animado = document.getElementById('texto2-animado');  
-        }            
-    </script>
+<script>
+    // Verifica se o dispositivo é um desktop
+    if (window.innerWidth > 768) {
+        // Se sim, carrega o script apenas para desktops
+        var script = document.createElement('script');
+        script.src = '../Scripts/sobreMimScript.js';
+        document.body.appendChild(script);
+    }
+    if (window.innerWidth <= 768) {
+        // Se sim, adiciona o conteúdo que deseja mostrar apenas em dispositivos móveis
+        var textoAnimado = document.getElementById('texto-animado');
+        var texto2Animado = document.getElementById('texto2-animado');
+
+        textoAnimado.innerHTML = 'Oi, sou o Leonardo Fonseca e sou apaixonado por tecnologia desde os tempos da faculdade na UNIFESP. Sempre gostei de me aprofundar nesse universo fascinante, buscando aprender e crescer constantemente. Além disso gosto muito de resolver problemas e encaro cada desafio como uma oportunidade de desenvolvimento pessoal e profissional.';
+        texto2Animado.innerHTML = 'Com uma formação sólida em tecnologia e um grande interesse por inovação, estou sempre em busca de soluções criativas e significativas. Acredito que a combinação entre minha formação acadêmica e minha motivação pessoal me capacita a enfrentar qualquer desafio de maneira eficaz, contribuindo assim para um progresso constante tanto no âmbito pessoal quanto profissional.';
+    }
+
+</script>
 
 </body>
 </html>

@@ -61,6 +61,20 @@ margin-top: 18%;
     hyphens: auto;
 }
 
+.language{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4rem;
+    margin-right: 1.5rem;
+    color: green;
+}
+
+.language img{
+    border: 3px solid rgb(67, 67, 67);
+    height: 20px;
+    cursor: pointer;
+}
 
 .SM-texto{
     color:rgb(200, 200, 200);

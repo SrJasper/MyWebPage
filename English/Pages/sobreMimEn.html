@@ -162,11 +162,20 @@
     </script>
 
     <script>
-        if (window.innerWidth <= 768) {
-            // Se sim, adiciona o conteúdo que deseja mostrar apenas em dispositivos móveis
-            var textoAnimado = document.getElementById('texto-animado');
-            var texto2Animado = document.getElementById('texto2-animado');
-        }
+        if (window.innerWidth > 768) {
+        // Se sim, carrega o script apenas para desktops
+        var script = document.createElement('script');
+        script.src = '../Scripts/sobreMimScript.js';
+        document.body.appendChild(script);
+    }
+    if (window.innerWidth <= 768) {
+        // Se sim, adiciona o conteúdo que deseja mostrar apenas em dispositivos móveis
+        var textoAnimado = document.getElementById('texto-animado');
+        var texto2Animado = document.getElementById('texto2-animado');
+
+        textoAnimado.innerHTML = "Hi, I'm Leonardo Fonseca and I've been passionate about technology since my college days at UNIFESP. I've always enjoyed delving into this fascinating universe, constantly seeking to learn and grow. Additionally, I really enjoy solving problems and view each challenge as an opportunity for personal and professional development.";
+        texto2Animado.innerHTML = "With a solid background in technology and a great interest in innovation, I'm always searching for creative and meaningful solutions. I believe that the combination of my academic background and my personal motivation enables me to tackle any challenge effectively, thus contributing to continuous progress both personally and professionally.";
+    }
             
     </script>
 
