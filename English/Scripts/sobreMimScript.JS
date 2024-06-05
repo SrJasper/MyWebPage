@@ -1,5 +1,5 @@
 const texto = "Hi, I'm Leonardo Fonseca and I've been passionate about technology since my college days at UNIFESP. I've always enjoyed delving into this fascinating universe, constantly seeking to learn and grow. Additionally, I really enjoy solving problems and view each challenge as an opportunity for personal and professional development.";
-const velocidadeDigitacao = 30; // Milissegundos por caractere
+const velocidadeDigitacao = 10; // Milissegundos por caractere
 
 let index = 0;
 
@@ -18,7 +18,7 @@ digitar();
 
 const texto2 = 
 "With a solid background in technology and a great interest in innovation, I'm always searching for creative and meaningful solutions. I believe that the combination of my academic background and my personal motivation enables me to tackle any challenge effectively, thus contributing to continuous progress both personally and professionally.";
-const velocidadeDigitacao2 = 30; // Milissegundos por caractere
+const velocidadeDigitacao2 = 10; // Milissegundos por caractere
 
 let index2 = 0;
 
