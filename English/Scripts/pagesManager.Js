@@ -1,23 +1,24 @@
 function buttonMainPage(){
-    window.location.href = "../indexEn.html";    
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
 function buttonProjetos(){
-    window.location.href = "projectsEn.html";    
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
 function buttonSobreMim(){    
-    window.location.href = "sobreMimEn.html";
+    window.location.href = "https://my-web-page-react.vercel.app";
 }
 
 function buttonContato(){
     window.open('https://wa.me/5512997772296', '_blank');
 }
 
-function indexBraProj(){
-    window.location.href = "../../Pages/projects.html";
+function indexEnProj(){
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
-function indexBraSobreMim(){
-    window.location.href = "../../Pages/SobreMim.html";
+function indexEnSobreMim(){
+    window.location.href = "https://my-web-page-react.vercel.app";
 }
+

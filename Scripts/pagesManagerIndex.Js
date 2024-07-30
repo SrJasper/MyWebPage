@@ -1,17 +1,17 @@
 function buttonProjetos(){
-    window.location.href = "./Pages/projects.html";    
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
 function buttonSobreMim(){    
-    window.location.href = "./Pages/sobreMim.html";
+    window.location.href = "https://my-web-page-react.vercel.app";
 }
 
 function buttonContato(){
-    window.location.href = "./Pages/contato.html";
+    window.location.href = "https://my-web-page-react.vercel.app";
 }
 
 function indexEnglish(){
-    window.location.href = "./English/indexEn.html";    
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
 

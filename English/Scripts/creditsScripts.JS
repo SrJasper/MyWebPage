@@ -11,12 +11,10 @@ document.getElementById("github-button").addEventListener("click", function() {
     window.open('https://github.com/SrJasper', '_blank');
 });
 document.getElementById("CV-button").addEventListener("click", function() {
-    var link = document.createElement('a');
-    link.href = '../CV.pdf'; 
-    link.download = 'CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open(
+        "https://drive.google.com/drive/folders/1jyQVl4xYsjufltCrIHQugWa3Qd6nuwzv?usp=sharing",
+        "_blank"
+      );
 });
 
 

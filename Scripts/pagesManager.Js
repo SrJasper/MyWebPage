@@ -1,13 +1,13 @@
 function buttonMainPage(){
-    window.location.href = "../index.html";    
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
 function buttonProjetos(){
-    window.location.href = "projects.html";    
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
 function buttonSobreMim(){    
-    window.location.href = "sobreMim.html";
+    window.location.href = "https://my-web-page-react.vercel.app";
 }
 
 function buttonContato(){
@@ -15,10 +15,10 @@ function buttonContato(){
 }
 
 function indexEnProj(){
-    window.location.href = "../../English/Pages/projectsEn.html";
+    window.location.href = "https://my-web-page-react.vercel.app";    
 }
 
 function indexEnSobreMim(){
-    window.location.href = "../../English/Pages/SobreMimEn.html";
+    window.location.href = "https://my-web-page-react.vercel.app";
 }
 
